@@ -56,4 +56,36 @@ body {
       }
     }
   }
+
+  #employees{
+    table{
+      width: 100%;
+    }
+    td,
+    th{
+      padding: 10px;
+    }
+    td{
+      font-size: 1.3rem;
+      img{
+        width: 100%;
+      }
+    }
+    thead{
+      tr{
+        background: #ddd;
+        text-align: center;
+        width: 100%;
+      }
+    }
+    tbody{
+      tr{
+        background: linear-gradient(#fff, #eee);
+        td:first-child{
+          width: 14%;
+        }
+      }
+    }
+  }
+
 }

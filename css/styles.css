@@ -51,5 +51,29 @@ body {
   flex: 1;
   padding: 0.25rem;
 }
+.container #employees table {
+  width: 100%;
+}
+.container #employees td,
+.container #employees th {
+  padding: 10px;
+}
+.container #employees td {
+  font-size: 1.3rem;
+}
+.container #employees td img {
+  width: 100%;
+}
+.container #employees thead tr {
+  background: #ddd;
+  text-align: center;
+  width: 100%;
+}
+.container #employees tbody tr {
+  background: linear-gradient(#fff, #eee);
+}
+.container #employees tbody tr td:first-child {
+  width: 14%;
+}
 
 /*# sourceMappingURL=styles.css.map */
