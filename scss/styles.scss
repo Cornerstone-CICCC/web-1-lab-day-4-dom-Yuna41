@@ -58,8 +58,10 @@ body {
   }
 
   #employees{
+    overflow-x: auto;
     table{
       width: 100%;
+      min-width: 600px;
     }
     td,
     th{

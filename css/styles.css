@@ -51,8 +51,12 @@ body {
   flex: 1;
   padding: 0.25rem;
 }
+.container #employees {
+  overflow-x: auto;
+}
 .container #employees table {
   width: 100%;
+  min-width: 600px;
 }
 .container #employees td,
 .container #employees th {
